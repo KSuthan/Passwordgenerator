@@ -10,11 +10,12 @@ var lowercasecharacters = "abcdefghijklmnopqrstuvwxyz";
 // Create an array of userchioces ( userChoices + special or numeric,  uppercase & lowercase characters = userChoices)
 var userChoices = "";
 
-var password = "";
+
 
 
 // create a function to get password length info from user 
 function writePassword() {
+  var password = "";
   var length = parseInt(prompt('how many characters would you like your password to contain? (Between 8-128)'))
   console.log("length", length)
 
